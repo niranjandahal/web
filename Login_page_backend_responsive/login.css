@@ -1,0 +1,74 @@
+
+.login-page {
+    width: 340px;
+    padding: 8% 0 0;
+    margin:auto;
+    margin-top: 110px;
+    padding: 30px; 
+  }
+
+  .form {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    border-radius: 8px;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgb(5, 5, 5), 0 5px 5px 0 rgba(240, 245, 241, 0.205);
+  }
+  .form input {
+      font-family: "Roboto", sans-serif;
+      outline: 0;
+      background: #f2f2f2;
+      width: 100%;
+      border: 0;
+      margin: 0 0 15px;
+      padding: 15px;
+      box-sizing: border-box;
+      font-size: 14px;
+      border-radius: 8px;
+    }
+  .form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #43A047;
+    border-radius: 8px;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    transition: ease 2s;
+  }
+  .form button:hover,.form button:active,.form button:focus {
+    background: #1c06dd;
+    transition: ease-in-out 0.5s;
+  }
+  
+  body{
+    height: 700px;
+    background-image: url(https://image.shutterstock.com/image-vector/global-internet-network-security-digital-260nw-604575887.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    -wekit-background-attachment: fixed;
+    -o-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+  }
+  @media only screen and (max-width: 500px){
+    .text img{
+        width:100%;
+    }
+    img{
+    margin-top:50%
+    }
+    .info{
+        margin-top: 10%;
+    }   
+  }
